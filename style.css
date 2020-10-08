@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.website {
+   border: 2px black solid;
+   width: 90%;
+   margin: 0 auto;
+   margin-top: 100px; 
+   max-width: 1200px;
+}
+
+
+.bg-dark {
+    height: 40px;
+    margin-bottom: 1px;
+}
+
+.footer-bg-dark{
+    height: 100px;
+}
+
+i .fas .fa-circle {
+    background-color: blue !important;
+    z-index: -1;
+}
+
+.top-bar{
+    border-bottom: 1px black solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.url-bar { 
+    padding: 5px;
+    margin: 0;
+
+}
+
+.fas{
+    color: rgb(59, 59, 59);
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 0 3px;
+}
+
+
+
+.col-md, .col-md-1, .col-md-10, .col-12 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.logo {
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.login-box {
+    margin: 50px auto;
+    width: 50%;
+    height: 500px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.btn h2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+button.btn-textBox {
+    border: none;
+    cursor: pointer;
+}
+
+button p.text{
+    color: rgb(172, 172, 172) !important;
+    border: none;
+}
+
+
+
+
+
+.user-login-sites {
+    width: 50%;
+    margin: 30px auto;
+    font-family: "ProximaNova-semibold";
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+ul li {
+    margin: 0 auto;
+    padding: 9px 12px;
+    margin-bottom: 12px;
+    border: 1px rgb(207, 207, 207) solid;
+    text-align: center;
+    width: 100%;
+    list-style-type: none;
+    font-weight: 600;
+    font-family: "ProximaNova-semibold";
+    
+
+}
+
+button.btn-url{
+    width: 100%;
+    margin-bottom: 1px;
+    text-align: left !important;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button.btn-logo{
+    border: none;
+    cursor: pointer;
+
+}
+
+
+
+
+
+button.btn {
+    margin: 0 auto !important;
+    width: 100%;
+    text-align: center !important;
+}
+
+footer {
+    height: 80px;
+}
+
+
+
+button.btn-box{
+    width: 100%;
+    list-style-type: none;
+    padding: 9px 12px;
+    margin-bottom: 12px;
+   
+}
+
+button.btn-box li{
+    width: 100%;
+}
+
+.text{
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.col{
+    margin: 0;
+    padding: 0;
+}
+
+.footerStyle {
+    background-color: #343a40!important;
+    height: 100px;
+}
+
