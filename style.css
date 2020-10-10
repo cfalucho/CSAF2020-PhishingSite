@@ -1,13 +1,77 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.navbar-center{
+    position: absolute;
+    left: 50%;
+}
+
+.navbar-nav li {
+    padding: 0;
+    justify-content: center;
+}
+
+/* index page */
+
+.index-box{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.quiz-box{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+
+button.phishing-quiz{
+   border-radius: 10px;
+   border-color: rgb(240, 240, 240);
+   cursor: pointer;
+   font-size: 20px;
+   padding: 8px 100px;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+.csaf-title {
+    background: -webkit-linear-gradient(rgb(47, 110, 73), rgb(20, 49, 88));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.missa-title {
+    background: -webkit-linear-gradient(rgb(223, 136, 136), rgb(168, 141, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1.title {
+    font-size: 80px;
+    background: -webkit-linear-gradient(rgb(223, 136, 136), rgb(168, 141, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .website {
    border: 2px black solid;
    width: 90%;
    margin: 0 auto;
-   margin-top: 100px; 
+   margin-top: 20px;
+   margin-bottom: 100px; 
    max-width: 1200px;
 }
 
@@ -179,3 +243,87 @@ button.btn-box li{
     height: 100px;
 }
 
+
+
+
+
+/* Second Phishing Website */
+
+.amzn-signup-box{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    
+
+}
+
+form{
+    text-align: left;
+   
+}
+
+label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111;
+}
+
+button.btn-amzn{
+    margin-top: 20px;
+    border: none;
+}
+
+h2.amzn-subheading{
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.amzn-logo {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 10px;
+    }
+
+
+
+
+input{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #a6a6a6;
+    color: rgba(182, 182, 182, 0.897);
+    padding: 3px 7px;
+    font-size: 12;
+    line-height: normal;
+}
+
+
+input[type=submit]{
+    font-size: 13px;
+    background-color: #f0c14b; 
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    color: black; 
+    font-family: 'Amazon Ember'; 
+    padding: 4px 6px;
+}
+
+.amzn-terms p{
+    font-family: 'Amazon Ember', Arial, sans-serif; 
+    font-size: 12px;
+    margin-top: 18px !important;
+    margin: 0 auto;
+    line-height: 1.5 !important;
+    width: 100%;
+}
+
+.footerStyle-amazon {
+    background-color: rgba(245, 245, 245, 0.836)!important;
+    height: 200px;
+}
