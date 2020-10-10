@@ -34,12 +34,13 @@ body {
  
 }
 
-button.phishing-quiz{
+.phishing-quiz{
+   border: 1px solid rgb(141, 141, 141);
    font-family: 'Montserrat', sans-serif;
-   border-radius: 10px;
-   border-color: rgb(240, 240, 240);
+   border-radius: 5px;
+   border-color: rgb(179, 179, 179);
    cursor: pointer;
-   font-size: 20px;
+   font-size: 23px;
    padding: 8px 100px;
    background-color: rgb(255, 255, 255);
    
