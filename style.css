@@ -4,7 +4,9 @@ body {
 
 }
 
-
+.landing-page {
+    margin-bottom: 400px;
+}
 
 .navbar-center{
     position: absolute;
@@ -80,14 +82,19 @@ h1.title {
     -webkit-text-fill-color: transparent;
 }
 
+.website-container {
+    padding-top: 20px;
+}
+
 .website {
    border: 2px black solid;
    width: 80%;
-   height: 80%;
+   height: 100%;
    margin: 0 auto;
-   margin-top: 20px;
+   margin-top: 200px;
    margin-bottom: 100px; 
    max-width: 1200px;
+   
 }
 
 
