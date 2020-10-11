@@ -21,9 +21,15 @@ Display a phishing website (spoofed website) that looks identical to a popular w
 
 ------------------------------
 
-## Steps to Creating Phishing Website 
+## Phishing Website
 
 
 1. View and copy the Source Code of the Webpage
 
 <img src="https://user-images.githubusercontent.com/39684482/92631676-8a6a8e80-f286-11ea-9843-b9d025beda40.png" width="90%"></img> 
+
+## Interactive Phishing Demo
+
+![Phishing Quiz Demo](demo/demo.gif)
+
+
