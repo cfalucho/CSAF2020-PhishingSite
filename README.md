@@ -28,7 +28,9 @@ Display a phishing website (spoofed website) that looks identical to a popular w
 
 ## Interactive Phishing Demo
 
-Click this [link](https://cfalucho.github.io/CSAF2020-PhishingSite/) to test your knowledge.
+
+Want to go phishing? Test your knowledge at [Phishing Quiz Demo](https://cfalucho.github.io/CSAF2020-PhishingSite/).
+
 
 ![Phishing Quiz Demo](demo/demo.gif)
 
