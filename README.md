@@ -15,22 +15,11 @@ Purpose of this project is to teach people the dangers of phishing. Showing exac
 - Server-side
   * PHP
   
-<<<<<<< HEAD
-
+  
 ------------------------------
 
 ## Phishing Website "Under The Hood" Example
 
-
-## Scenario 
-Display a phishing website (spoofed website) that looks identical to a popular website. Sign up normally without identifying if website is fake. While inputting fake credentials, show how login credentials are being logged and display how easy it is to control user information. Creating fake website is easy and setting one up that harvests user credentials can be dangerous and prone to identity theft. 
-=======
-  
-
-
-------------------------------
-
-## Scenario 
 Display a phishing website (spoofed website) that looks identical to a popular website. Sign up normally without identifying if website is fake. While inputting fake credentials, show how login credentials are being logged and display how easy it is to control user information. Creating fake website is easy and setting one up that harvests user credentials can be dangerous and prone to identity theft. 
 
 
