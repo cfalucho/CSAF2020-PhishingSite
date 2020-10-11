@@ -58,7 +58,8 @@
     </div>
   </nav>
   
-   
+   <!-- First Phishing Website -->
+
 
     <div class="website">
       <header class="bg-dark">
@@ -95,7 +96,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Correct! - Check Domain Name </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Correct! - <span style="color: red">Check Domain Name</span></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -211,7 +212,7 @@
            <div class="modal-dialog" role="document">
              <div class="modal-content">
                <div class="modal-header">
-                 <h5 class="modal-title" id="exampleModalLabel">Correct! - Grammatical Errors</h5>
+                 <h5 class="modal-title" id="exampleModalLabel">Correct! - <span style="color: red">Grammatical Errors</span></h5>
                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                    <span aria-hidden="true">&times;</span>
                  </button>
@@ -266,7 +267,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Correct! - Design Flaws </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Correct! - <span style="color: red">Design Flaws</span></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -287,10 +288,8 @@
 
         </div>
 
-        <footer class="footerStyle">
-          <div>
-            tiktok
-          </div>
+        <footer data-aos="fade-down" datta-aos-anchor-placement="top-center" data-aos-duration="3000" class="footerStyle">
+         
         </footer>
 
     </div>
@@ -304,7 +303,7 @@
 <!-- Second Phishing Website -->
 
   <div class="website">
-    <header class="bg-dark">
+    <header data-aos="fade-up" datta-aos-anchor-placement="bottom-center" data-aos-duration="3000" class="bg-dark">
       <div>
         <i style="color: red" class="fas fa-circle"></i>
 
@@ -321,7 +320,7 @@
         <div class="row">
           <div class="col-md backForward-btn">
             <i data-aos="zoom-in-right" data-aos-duration="2000" class="fas fa-arrow-left"></i>
-            <i data-aos="zoom-in-left" data-aos-duration="2000" class="fas fa-arrow-right"></i>
+            <i data-aos="zoom-in-left" data-delay="300" data-aos-duration="3000" class="fas fa-arrow-right"></i>
             <i data-aos="zoom-in-up" data-aos-duration="2000" class="fas fa-redo"></i>
           </div>
   
@@ -338,7 +337,7 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Correct! - Forged URL </h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Correct! - <span style="color: red">Forged URL</span></h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -357,8 +356,8 @@
           
        
           <div class="col-md">
-            <i class="fas fa-user-circle"></i>
-            <i class="fas fa-bars"></i>
+            <i data-aos="zoom-out-right" data-aos-duration="3000" class="fas fa-user-circle"></i>
+            <i data-aos="zoom-in-left" data-aos-duration="2000" class="fas fa-bars"></i>
           </div>
   
         </div>
@@ -372,14 +371,14 @@
 
 
     
-      <div class="amzn-logo">
+      <div class="amzn-logo" style="text-align: center">
 
-        <button type="button" class="btn-amzn bg-white" data-toggle="modal" data-target="#TikTokLogo">
-          <img data-aos="fade-down-right" data-aos-duration="2000" class="amzn-logo" src="assets/img/Amazon_logo.png" style="width: 120px;" alt="">
+        <button type="button" class="btn-amzn bg-white" data-toggle="modal" data-target="#Amznlogo">
+          <img data-aos="fade-down-right"  data-aos-duration="2000" src="assets/img/Amazon_logo.png" style="width: 120px;" alt="">
         </button>
-
+      </div>
         <!-- Modal -->
-        <div class="modal fade" id="TikTokLogo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="Amznlogo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
           aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -400,7 +399,7 @@
         </div>
 
        
-      </div>
+     
 
 
       <div class="amzn-signup-box">
@@ -416,7 +415,7 @@
             
             
             
-            <!-- Modal -->
+            <!--Create an Account Modal -->
             <div class="modal fade" id="LogInTikTok" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -449,25 +448,38 @@
         <div class="user-login-form">
 
 
-          <button type="button" class="btn bg-white" data-toggle="modal" data-target="#social-container">
-            <form data-aos="zoom-out" data-aos-duration="2000" action="/action_page.php">
+            <form>  
+              <button class="btn text-left bg-white" data-aos="zoom-out" data-aos-duration="2000" type="button" data-toggle="modal" data-target="#customer-info">
+
               <label for="fname">Your name</label><br>
               <input type="text" id="fname" name="fname" value=""><br>
+      
+
               <label for="lname">Email</label><br>
               <input type="text" id="lname" name="lname" value="" style="margin-bottom: 3px;"><br>
              
               <label for="password">Password</label><br>
-              <input type="text" id="password" value="At least 6 characters"><br><br>
+              <input style="padding: 3px; padding-left: 5px; font-size: 13px;"type="text" id="password" value="At least 6 characters"><br><br>
              
               <label for="password">Re-enter Password</label><br>
               <input type="text" id="lname" name="lname" value=""><br>
+              </button>
+              
+              <button data-aos="zoom-in-left" data-aos-duration="2000" type="button" class="btn text-left bg-white" data-toggle="modal" data-target="#ssn">
+                <label for="ssn">Social Security</label><br>
+                <input value="XXX-XX-XXXX"><br>
+              </button>
 
-              <label for="ssn">Social Security</label><br>
-              <input type="text" id="lname" value="XXX-XX-XXXX"><br><br>
 
-              <input type="submit" value="Create your Amazon account" 
-              style="background-color: #f0c14b; color: black; font-family: 'Amazon Ember'; padding: 4px 6px;">
-            
+              
+              <div class="create-acct-box">
+                <button type="button" class="create-acct" data-toggle="modal" data-target="#acct-btn">
+                  Create your Amazon account
+                </button>
+              </div>
+       
+              
+             
               <div class="amzn-terms">
                 <p>
                   By creating an account, you agree to Amazon's <br>
@@ -479,21 +491,24 @@
             </form> 
             
 
-          </button>
+
+
+
+         
 
           <!-- Modal -->
-          <div class="modal fade" id="social-container" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          <div class="modal fade" id="customer-info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Correct! - Design Flaws </h5>
+                  <h5 class="modal-title" id="exampleModalLabel">Incorrect!</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  Scammers do not care about design. As long as the website looks identical enough, they will speed through the design process.
+                  These are standard input fields Amazon asks for when signing up for an account.
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -503,12 +518,57 @@
           </div>
 
 
+           <!-- Modal -->
+           <div class="modal fade" id="ssn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+           aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Correct! - <span style="color: red">Unnecessary Information Request </span></h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 Amazon would not ask for your Social Security number.
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+
+           <!-- Create your amazon account Modal -->
+           <div class="modal fade" id="acct-btn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+           aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Incorrect!</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 Design looks normal.
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+
+         
+
+
       
         </div>
 
       </div>
 
-      <footer class="footerStyle-amazon">
+      <footer data-aos="fade-down" datta-aos-anchor-placement="top-center" data-aos-duration="3000" class="footerStyle-amazon">
         <div>
         </div>
       </footer>

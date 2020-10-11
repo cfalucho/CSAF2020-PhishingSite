@@ -24,7 +24,17 @@ body {
     padding-bottom: 100px;
     margin: 0 auto;
     text-align: center;
-    width: 50%;
+    width: 100%;
+
+}
+
+div.img-box{
+    position: relative;
+    left: 400px
+}
+
+img.index-security {
+    display: inline;
 }
 
 .quiz-box{
@@ -58,7 +68,6 @@ body {
 
 .missa-title {
     font-family: 'Montserrat', sans-serif;
-
     background: -webkit-linear-gradient(rgb(223, 136, 136), rgb(168, 141, 141));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,7 +82,8 @@ h1.title {
 
 .website {
    border: 2px black solid;
-   width: 90%;
+   width: 80%;
+   height: 80%;
    margin: 0 auto;
    margin-top: 20px;
    margin-bottom: 100px; 
@@ -133,7 +143,7 @@ i .fas .fa-circle {
 }
 
 .login-box {
-    margin: 50px auto;
+    margin: 20px auto;
     width: 50%;
     height: 500px;
 }
@@ -160,14 +170,15 @@ button p.text{
     border: none;
 }
 
-
+.user-login-form{
+    padding: 10px;
+}
 
 
 
 .user-login-sites {
     width: 50%;
     margin: 30px auto;
-    font-family: "ProximaNova-semibold";
 }
 
 ul {
@@ -210,7 +221,7 @@ button.btn-logo{
 button.btn {
     margin: 0 auto !important;
     width: 100%;
-    text-align: center !important;
+   
 }
 
 footer {
@@ -264,10 +275,7 @@ button.btn-box li{
 
 }
 
-form{
-    text-align: left;
-   
-}
+
 
 label {
     font-size: 13px;
@@ -275,9 +283,15 @@ label {
     color: #111;
 }
 
+button label {
+    text-align: left !important;
+
+}
+
 button.btn-amzn{
     margin-top: 20px;
     border: none;
+    cursor: pointer;
 }
 
 h2.amzn-subheading{
@@ -289,7 +303,6 @@ h2.amzn-subheading{
 }
 
 .amzn-logo {
-    text-align: center;
     width: 100%;
     margin: 0 auto;
     border: none;
@@ -304,26 +317,39 @@ input{
     border-radius: 3px;
     border: 1px solid #a6a6a6;
     color: rgba(182, 182, 182, 0.897);
-    padding: 3px 7px;
     font-size: 12;
     line-height: normal;
+    cursor: pointer;
 }
 
+.create-acct-box{
+    padding: 10px 13px;
+}
 
-input[type=submit]{
-    font-size: 13px;
+button.create-acct{
+    font-size: 15px;
     background-color: #f0c14b; 
     background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
     color: black; 
     font-family: 'Amazon Ember'; 
-    padding: 4px 6px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 3px 0;
+    border: 1px solid rgb(119, 119, 119);
+    font-weight: 200;
+    cursor: pointer;
+    position: relative;
+    left: 1px;
+
+    
+    
 }
 
 .amzn-terms p{
     font-family: 'Amazon Ember', Arial, sans-serif; 
     font-size: 12px;
     margin-top: 18px !important;
-    margin: 0 auto;
+    margin: 0 10px;
     line-height: 1.5 !important;
     width: 100%;
 }
@@ -373,6 +399,7 @@ input[type=submit]{
   }
   .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
     color: white;
+    text-decoration: none;
   }
   .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
     -webkit-transform: scaleX(1);
@@ -380,3 +407,4 @@ input[type=submit]{
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
+
