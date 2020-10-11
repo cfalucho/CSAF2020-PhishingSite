@@ -16,14 +16,13 @@ Purpose of this project is to teach people the dangers of phishing. Showing exac
   * PHP
   
   
-## Scenario 
-Display a phishing website (spoofed website) that looks identical to a popular website. Sign up normally without identifying if website is fake. While inputting fake credentials, show how login credentials are being logged and display how easy it is to control user information. Creating fake website is easy and setting one up that harvests user credentials can be dangerous and prone to identity theft. 
+
 
 ------------------------------
 
-## Steps to Creating Phishing Website 
+## Scenario 
+Display a phishing website (spoofed website) that looks identical to a popular website. Sign up normally without identifying if website is fake. While inputting fake credentials, show how login credentials are being logged and display how easy it is to control user information. Creating fake website is easy and setting one up that harvests user credentials can be dangerous and prone to identity theft. 
 
 
-1. View and copy the Source Code of the Webpage
 
 <img src="https://user-images.githubusercontent.com/39684482/92631676-8a6a8e80-f286-11ea-9843-b9d025beda40.png" width="90%"></img> 
