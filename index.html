@@ -35,25 +35,58 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"> <span class="csaf-title">CSAF 2020</span> | <span class="missa-title">MISSA</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <!-- <ul class="navbar-nav navbar-center">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="phishExercise.html">Demo</a>
-        </li>
-      
-      
-      </ul> -->
+
+
+  <nav class="navbar navbar-inverse bg-light">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"> <span class="csaf-title">CSAF 2020</span> | <span class="missa-title">MISSA</span></a>
+      </div>
+   
+      <ul class="nav navbar-nav navbar-right">
+
+        <button type="button" class="btn bg-light" data-toggle="modal" data-target="#help">
+          <li style="margin: 0px; padding: 0px; border: none; font-size: 20px; font-weight: 100; font-family: 'Montserrat', sans-serif;
+          ;">Help</li>
+          </button>
+          
+      </ul>
     </div>
   </nav>
   
+
+            
+            <!-- Modal -->
+            <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> <span style="color: red">CSAF Help</span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body" style="border-bottom: 1px solid #e9ecef;">
+                    Click around the fake websites and a pop-up will appear (just like this one) indiciating whether the item clicked is a sign of phishing.
+                  </div>
+
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> <span style="color: red">Have questions?</span></h5>
+                   
+                  </div>
+                  <div class="modal-body">
+                    Please email me at
+                    <a href="mailto:christian.falucho@calpolymissa.org">christian.falucho@calpolymissa.org</a>
+                  </div>
+
+                  
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
    
    
 
@@ -322,7 +355,7 @@
 <br/>
 
 
-<!-- Second Phishing Website -->
+<!-- Second Phishing Website Start -->
 
 <div class="website">
   <header data-aos="fade-up" datta-aos-anchor-placement="bottom-center" data-aos-duration="3000" class="bg-dark">
@@ -599,6 +632,8 @@
 
 </div>
 </div>
+<!-- Second Phishing Website End -->
+
 
 
 

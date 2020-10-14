@@ -168,6 +168,11 @@ i .fas .fa-circle {
 
 }
 
+button {
+    padding: 0;
+    margin: 0;
+}
+
 button.btn-textBox {
     border: none;
     cursor: pointer;
